@@ -1,0 +1,10 @@
+LINKS DE MOQUPS
+
+DISEÑO DESKTOP: https://app.moqups.com/GXSvcADenQIEJEcLBZxhlYoygNkKi3CK/view/page/ad64222d5
+DISEÑO MOBILE: https://app.moqups.com/AXr2bWmUU32rZYoM9raFMhhohWrip8Y4/view/page/ad64222d5
+
+Sobre el proyecto:
+La idea de la marca y proyecto es con un estilo retro, por eso el estilo de los colores o la página.
+Yo había empezado un curso de desarrollo fullstack por eso conozco algo de CSS, HTML, Git, GitHub, JavaScript, TypeScript.
+Así que aplique alguno de los conocimientos previos y algunos nuevos.
+Gracias, saludos!!

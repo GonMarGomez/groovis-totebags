@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <title>Groovis</title>
+    <link rel="shortcut icon" href="../Imagenes/Logo-MariposaIco.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html"><img class="header__logo" src="../Imagenes/logo-mariposa.png"
+                alt="Logo de mariposa de la marca" /></a>
+        <h1 class="header__marcaTitulo">Groovis</h1>
+        <nav class="nav__elements">
+            <a class="nav__elements-element" href="../index.html">Inicio</a>
+            <a class="nav__elements-element" href="./productos.html">Productos</a>
+            <a class="nav__elements-element" href="./informacion.html">Informacion</a>
+            <a class="nav__elements-element activo" href="./contacto.html">Contacto</a>
+            <a class="nav__elements-element" href="./envios.html">Envios</a>
+        </nav>
+        <i class="fas fa-shopping-bag"></i>
+    </header>
+    <section id="Contacto">
+        <div class="Contacto__primeraMitad">
+            <div class="Contacto__redesSociales-Box">
+                <h2 class="Contacto__redesSociales__Box-text">REDES SOCIALES</h2>
+            </div>
+            <div class="Contacto__redesPresentacion">
+                <div class="Contacto__redesPresentacion-SocialesIconos">
+                    <i class="fab fa-whatsapp-square"></i>
+                    <i class="fas fa-camera-retro"></i>
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="Contacto__redesPresentacion-SocialesTextBox">
+                    <h3 class="Contacto__redesPresentacion-SocialesTextBox-text">
+                        +54-NUMERO WPP
+                    </h3>
+                    <h3 class="Contacto__redesPresentacion-SocialesTextBox-text">
+                        @GROOV.IS
+                    </h3>
+                    <h3 class="Contacto__redesPresentacion-SocialesTextBox-text">
+                        gonzalomgomez5@gmail.com
+                    </h3>
+                </div>
+            </div>
+            <div class="Contacto__Logo">
+                <img class="Contacto__Logo-img" src="../Imagenes/DescripcionProd.png" alt="" />
+            </div>
+        </div>
+        <div class="Contacto__SegundaMitad">
+            <div class="Contacto__SegundaMitad-tituloBox">
+                <img class="Contacto__SegundaMitad_imagenTitulo" src="../Imagenes/mensaje-icono.png" alt="" />
+                <div>
+                    <h1 class="Contacto__SegundaMitad_imagenTitulo-text">CONTACTO</h1>
+                    <div class="Contacto__contenedores">
+                        <div class="Contacto__contenedorVioleta"></div>
+                        <div class="Contacto__contenedorVerde"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Contacto__consultasBox">
+                <h2 class="Contacto__consultasText">CONSULTAS</h2>
+            </div>
+            <div>
+                <form>
+                    <label for="nombre">Nombre</label>
+                    <input class="field" type="text" id="nombre" />
+                    <label for="apellido">Apellido</label>
+                    <input class="field" type="text" name="apellido" id="apellido" />
+                    <label for="mail">Mail</label>
+                    <input class="field" type="email" id="mail" required />
+                    <div class="contactoFieldBox-checkbox">
+                        <h3 class="contactoFieldBox-checkbox-text">
+                            Seleccione el/los tipos de Tote:
+                        </h3>
+                        <label for="Tote-rellena">Tote Rellena</label>
+                        <input class="field" type="checkbox" name="Tote-rellena" id="Tote-rellena" />
+                        <label for="Tote-simple">Tote Simple</label>
+                        <input class="field" type="checkbox" name="Tote-simple" id="Tote-simple" />
+                    </div>
+                    <label class="consulta-text" for="consulta">Deje su consulta</label>
+                    <textarea name="texta" id="consulta" cols="30" rows="10"></textarea>
+                    <div class="contactoFieldBox-buttom-box">
+                        <input class="contactoFieldBox-buttom" type="submit" value="Enviar" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <footer>
+            <img class="header__logo" src="../Imagenes/logo-mariposa-icon.ico" alt="" />
+        </footer>
+    </footer>
+</body>
+
+</html>
